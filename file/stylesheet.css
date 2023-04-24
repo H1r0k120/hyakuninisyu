@@ -1,0 +1,66 @@
+html {
+height: 100%;
+}
+
+#main {
+min-height: 110%;
+background: #78E484 ;
+margin: 0 auto;
+width: 800px;
+padding: 20px;
+border-left: 1px solid black;
+border-right: 1px solid black
+}
+
+body {
+height: 100%;
+margin: 0 auto;
+background-image: url(bg.png);
+background-attachment: fixed;
+color: #0B6715;
+font-family: Arial;
+}
+
+em {
+font-weight: bold;
+color: green;
+}
+
+.btn--orange,
+button.btn--orange {
+  color: #000000;
+  background-color: #cccccc;
+}
+.btn--orange:hover,
+button.btn--orange:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+button.btn--radius {
+   border-radius: 20px;
+margin: 0px;
+	padding: 15px;
+}	
+
+	#playing1,#playing2,#playing3,#playing5 {
+		font-size: 20px;
+margin: 0px;
+	padding: 5px;
+  color: #333;		
+}	
+	#playing4 {
+  color: #999;
+}	
+	#playing6 {
+}		
+	#playing7 {
+		font-size: 30px;
+  color: #333;		
+background-color:#EC8D99;
+}		
+	#playing7b {
+		font-size: 30px;
+  color: #333;		
+background-color:#ECCD80;
+}	
