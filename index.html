@@ -15,6 +15,7 @@
 	<br>
 	<button id="btn1" class="btn btn--orange btn--radius">連続再生</button>
         <button id="btn2" class="btn btn--orange btn--radius">ランダム再生</button>
+        <button id="btn5" class="btn btn--orange btn--radius">リセット</button>
 	<br>
 	<br>
 	<audio id="audio" src="file/00.wav" controls="" autoplay=""></audio>
@@ -74,6 +75,14 @@ var songs = [
 }
 
 		/*==== ボタンを押したときの処理 ====*/
+$(function(){
+  $('#btn5').on('click',function(){
+    window.location.reload();
+  });
+});		
+
+     
+                
 $(function(){
   $('#btn1').on('click',function(){
 
